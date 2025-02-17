@@ -1,0 +1,893 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+
+header {
+    background-color: #F15025;
+    background: linear-gradient(to right, red ,yellow);
+    color: white;
+    padding: 0px 0;
+    text-align: center;
+    height: 280px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(221, 32, 32);
+    color:white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color:#006bff;
+    transition: 3s;
+    cursor: pointer;
+
+}
+
+
+
+.footer-elements button {
+    background-color: rgb(221, 32, 32);
+    padding: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+.navbar ul{
+
+    list-style-type: none;
+    background-color: goldenrod;
+    padding: 0px;
+    margin-top:  0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding:15px;
+    border-color: black;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.navbar a:hover{
+    background-color: silver;
+    cursor: progress;
+    transition: 3s;
+  
+}
+
+.navbar li {
+    float: left;
+}
+
+ p {
+    color:black;
+}
+
+.heading_form{
+    text-align: center;
+    color: brown;
+    font-size:30px ;
+    font-style: bold;
+    padding-bottom: 20px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+
+form {
+    text-align: left;
+    line-height: 1.5;
+    width: 80%; /* Reduced width for a more compact form */
+    max-width: 600px; /* Reduced max-width */
+    padding: 15px; 
+    margin: 20px auto;
+    background-color: #FFCF9C;
+    color: black;
+    border: 3px solid black; /* Initial border */
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem; /* Reduced font size */
+    font-weight: 100;
+    border-radius: 10px;
+    position: relative; /* Required for animation effect */
+    animation: animateBorder 3s infinite; /* Border animation */
+}
+
+input, select {
+    width: 90%; 
+    max-width: 350px; 
+    height: 30px; 
+    padding: 5px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    font-size: 0.9rem; 
+}
+
+.Quotes {
+    text-align: center;
+    font-size: 1.5rem; 
+    margin-bottom: 15px; 
+}
+
+.Quotes button {
+    background-color: rgb(221, 32, 32);
+    color: white;
+    border: none;
+    height: 35px; 
+    width: 140px; 
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+/* Animated border effect */
+@keyframes animateBorder {
+    0% {
+        border-color: black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    25% {
+        border-color: red; 
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+    }
+    50% {
+        border-color: orange; 
+        box-shadow: 0 0 10px rgba(255, 165, 0, 0.5); 
+    }
+    75% {
+        border-color: yellow; 
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); 
+    }
+    100% {
+        border-color: black; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    }
+}
+
+
+
+
+
+/* 
+@media (max-width: 768px) {
+    form {
+        width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    input, select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Quotes button {
+        width: 120px;
+        height: 35px;
+    }
+
+    .Quotes {
+        font-size: 1.8rem;
+    }
+} */
+
+/* iPhone 14 (max-width: 390px)
+/* @media (max-width: 390px) {
+    .Courses {
+        width: 90%;
+        padding: 15px; /* Reduced padding for smaller screen 
+    } */
+
+    .Courses p {
+        font-size: 14px; /* Smaller font for readability on small screens */
+        line-height: 22px;
+    }
+
+    .spectrum div {
+        padding: 0 10px; /* Reduced padding for iPhone */
+    }
+
+    .spectrum p {
+        font-size: 16px; /* Smaller font size */
+    }
+
+    .Quotes button {
+        width: 100px;
+        height: 30px;
+    }
+
+    .Quotes {
+        font-size: 1.5rem; /* Adjusted font size for buttons */
+    }
+
+
+/* General Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    form {
+        width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    input, select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Quotes button {
+        width: 120px;
+        height: 35px;
+    }
+
+    .Quotes {
+        font-size: 1.8rem;
+    }
+
+    .Courses {
+        width: 90%;
+        padding: 20px;
+    } */
+
+    .Courses p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .spectrum div {
+        padding: 0 15px;
+    }
+
+    .spectrum p {
+        font-size: 18px;
+    }
+}
+
+
+.Quotes button:hover {
+    background-color:#006bff;
+    transition: 3s;
+    cursor: pointer;
+    background-color: none;
+
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+    padding:2px;
+    /* border: gold solid; */
+   
+}
+
+section{
+    /* background-color: royalblue; */
+    color: white;
+}
+
+section:nth-child(even){
+    /* background-color: #eee; */
+}
+
+section:hover {
+    background-color: brown;
+    color: darkblue;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+
+h1 { 
+    color: #006bff; /* Changed color to blue */
+    text-align: center;
+    font-size: 2rem; /* Default font size for larger screens */
+    margin-top: 2pxx;
+}
+
+@media (max-width: 1024px) { /* Tablet view */
+    h1 {
+        font-size: 1.8rem; /* Slightly smaller font size for tablets */
+        color: whitesmoke;/* Change color to orange on tablet */
+    }
+}
+
+@media (max-width: 768px) { /* Smaller tablets or landscape phones */
+    h1 {
+        font-size: 1.5rem; /* Further reduce font size for smaller devices */
+        color: darkgreen; /* Change color to green on smaller tablets */
+    }
+}
+
+
+
+h2 {
+    color: black;
+    background-color: #FFCF9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto ;
+    border: solid 3px brown;
+    border-width: 5px;
+    border-radius: 5px;
+    font-size: 1.3rem; /* Default font size for desktop */
+    max-width: 80%; /* Width adjustment for desktop */
+}
+/* Media query for iPad 14 (Landscape and Portrait) */
+@media screen and (min-width: 820px) and (max-width: 1194px) {
+    h2 {
+        font-size: 1.6rem; /* Larger font size for iPad 14 */
+        padding: 12px;
+        max-width: 90%;
+    }
+}
+
+/* Media query for standard iPad (768px to 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h2 {
+        font-size: 1.4rem; /* Adjust font size for iPad */
+        padding: 10px;
+        max-width: 85%;
+    }
+}
+
+/* Media query for mobile (e.g. smaller iPads or smaller screens) */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.2rem; /* Smaller font size for small screens */
+        padding: 8px;
+        max-width: 95%; /* Take more width for smaller screens */
+    }
+}
+
+
+
+.content {
+    margin: 0;
+    background-image: url(training.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content  {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    color: #001f3f;
+    font-size:30px;
+    font-weight:400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: auto;
+    font-size: 1.75rem;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    background-color:  rgb(223, 234, 235);
+    margin: 0 auto;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;  /* Responsive width */
+    min-height: 140px;
+    background-color: beige;
+    padding: 20px;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgb(68, 65, 65);
+    box-shadow: -5px 5px 2px;
+}
+
+.bottom-div div {
+    height: 130px;
+    width: 100%;  /* Full width for responsiveness */
+    max-width: 800px;
+}
+
+.top-div {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 180px;
+    background-color: #F15025;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px brown;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 430px) {  /* iPhone 14 width */
+    .top-div {
+        font-size: 22px;
+        height: 140px;
+        padding-top: 15px;
+    }
+
+    .bottom-div {
+        width: 95%;
+        margin-top: -40px;
+        padding: 15px;
+    }
+
+    .bottom-div div {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+/* iPhone 14 Landscape */
+@media screen and (min-width: 431px) and (max-width: 896px) {  /* iPhone 14 Landscape width */
+    .top-div {
+        font-size: 24px;
+        height: 150px;
+        padding-top: 15px;
+    }
+
+    .bottom-div {
+        width: 90%;
+        margin-top: -50px;
+        padding: 15px;
+    }
+
+    .bottom-div div {
+        height: auto;
+        max-width: 95%;
+    }
+}
+
+
+ .Courses {
+    margin: 0px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: whitesmoke;
+    overflow: auto;
+    width: 100%;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.Courses p {
+    color: #938E89;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px; /* Default font size for desktop */
+    font-weight: 300;
+}
+
+/* Spectrum Section */
+.spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: #FFFFFF;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+.spectrum p {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+/* Media query for iPad (min-width: 768px, max-width: 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .Courses {
+        width: 85%;  /* Slightly wider for iPad */
+        padding: 20px;  /* Adjust padding for iPad */
+    }
+
+    .Courses p {
+        font-size: 18px;  /* Slightly larger font for better readability */
+        line-height: 26px;
+    }
+
+    .spectrum div {
+        padding: 0 15px;  /* Reduced padding on iPad */
+    }
+
+    .spectrum p {
+        font-size: 18px;
+    }
+}
+
+
+/* Courses types */
+.first {
+    background-color: #d6c0b3;
+    height: 200px;
+  }
+  
+  .second {
+    background-color: sienna;
+    height: 200px;
+  }
+  
+  .third {
+    background-color: saddlebrown;
+    height: 200px;
+  }
+  
+  .fourth {
+    background-color: brown;
+    height: 200px;
+  }
+  
+  .fifth {
+    background-color: black;
+    height: 200px;
+  } 
+  
+
+
+/* Media query for iPhone (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .Courses {
+        width: 95%;  /* Full width for smaller screens */
+        padding: 15px;  /* Reduced padding */
+    }
+
+    .Courses p {
+        font-size: 14px;  /* Smaller font size for mobile */
+        line-height: 22px;
+    }
+
+    .spectrum div {
+        padding: 0 10px;  /* Reduced padding for mobile */
+    }
+
+    .spectrum p {
+        font-size: 14px;  /* Smaller font size for mobile */
+    }
+}
+
+/* Media query for desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+    .Courses {
+        width: 70%;  /* More compact width for large desktops */
+        padding: 30px 40px;  /* Increased padding for larger screens */
+    }
+
+    .Courses p {
+        font-size: 18px;  /* Larger font for readability on big screens */
+        line-height: 28px;
+    }
+
+    .spectrum div {
+        padding: 0 25px;  /* More padding for desktop */
+    }
+
+    .spectrum p {
+        font-size: 18px;
+    }
+}
+
+ 
+
+.parent {
+    background-color: rgb(223, 234, 235);
+    display: flex;
+    height: 350px;
+    /* justify-content: center; */
+    width: 100%
+    justify-content:flex-end ;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    background-color: white;
+    padding: 0;
+    margin: 10px;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures content stays inside the rounded corners */
+}
+
+.top {
+    background-color: blue;
+    height: 25%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+}
+
+
+.bottom {
+    background-color: white;
+    height: 70%;
+    color: maroon;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px; /* Slightly larger for readability */
+    font-weight: 500; /* Medium weight for better contrast */
+    line-height: 1.6; /* Spacing between lines for better legibility */
+    letter-spacing: 0.5px; /* Slight spacing between letters */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bottom button {
+margin-bottom: 10px;
+height: 6px;
+width: 2px;
+}
+
+  /* h3 {
+    color: #41292C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+  } */
+
+  h3 {
+    color: #41292C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px; /* Default font size for desktop */
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Media Query for Tablet (min-width: 768px and max-width: 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h3 {
+        font-size: 40px; /* Slightly smaller font for tablets */
+    }
+}
+
+/* Media Query for iPhone 14 (max-width: 430px) */
+@media screen and (max-width: 430px) {
+    h3 {
+        font-size: 30px; /* Smaller font for iPhone 14 */
+    }
+}
+
+/* Media Query for Desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+    h3 {
+        font-size: 50px; /* Retain large font for desktop */
+    }
+}
+
+  
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: .2em;
+    padding-top: 20px;
+  }
+  
+  h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: .2em;
+    font-weight: 300;
+    padding-top: 40px;
+  }
+
+
+
+#section1 {
+    color: white;
+    background-color: #ff6500;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    position: relative;
+    border: 3px solid #c62e2e;
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(to right, red ,yellow);
+    color: white;
+
+}
+
+
+#section1 button {
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #F2E5BF;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.checklist {
+    list-style: url(check-square.svg);
+    font-size: 6 em;
+    margin-bottom: 20 px;
+    text-align: left;
+    padding: 10px;
+    margin:20px;
+
+}
+
+.chat {
+    position:fixed;
+    height:40px;
+    width: 120px;
+    Bottom: 0px;
+    Right:10px;
+    color:white;
+    symbols:url(youtube_logo.png)
+}
+
+
+
+footer {
+    background-color:  #FFCF9C;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 2030px;
+}
+
+/* h6 {
+    color: black;
+    background-color: #FFCF9C;
+    text-align:center;
+    border:solid 3px;
+    border-color:brown;
+    border-width: 5px;
+    border-radius: 5px;
+} */
+
+
+h6 {
+    color: black;
+    background-color: #FFCF9C;
+    text-align: center;
+    border: solid 5px brown;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-clip: text;
+    animation: text-border-gradient 5s linear infinite;
+}
+
+@keyframes text-border-gradient {
+    0% {
+        color: #ff0000; /* Red text */
+        border-color: #ff0000; /* Red border */
+    }
+    25% {
+        color: #ffa500; /* Orange text */
+        border-color: #ffa500; /* Orange border */
+    }
+    50% {
+        color: white; /* Green text */
+        border-color: white; /* Green border */
+    }
+    75% {
+        color: #0000ff; /* Blue text */
+        border-color: #0000ff; /* Blue border */
+    }
+    100% {
+        color: brown; /* Magenta text */
+        border-color: brown; /* Magenta border */
+    }
+}
+
+
+
+.footer-elements a {
+
+ text-decoration: none;
+
+
+}
+
+.end {
+    border:3px solid brown;
+}
+
+iframe {
+    border:5px solid silver;
+    margin:10px;
+}
+
+
+.fa-youtube {
+    color: red;
+    font-size: 30px;
+    width: 100px;
+}
+
+.fa-twitter {
+    color: aqua;
+    font-size: 30px;
+    width: 100px;  
+}
+
+.fa-facebook {
+    color: darkblue;
+    font-size: 30px;
+    width: 100px;
+    text-decoration: none; 
+}
+
+.fa-instagram {
+    color:rgb(228, 64, 95);
+    font-size :30px;
+    width:100px;
+}
+
+Default styles (for mobile-first design)
+.body h2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .body {
+      font-size: 18px;
+      padding: 15px;
+    }
+  }
+  
+  Desktop styles (min-width: 1024px)
+  @media (min-width: 1024px) {
+    .body {
+      font-size: 20px;
+      padding: 20px;
+    }
+  }
+  
